@@ -155,7 +155,7 @@ void findPath(state CurrentState, state finalState, int visited[]) {
 
     if (isStateEqual(CurrentState,finalState)) {
         numPaths++;
-        cout << "Path Found"<<numPaths<<": ";        
+        cout << "Path Found "<<numPaths<<": ";        
         printPathStates();
         printStateVisualization();
         removeLastState();                          // Backtracking after printing
